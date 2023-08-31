@@ -1,0 +1,31 @@
+TP : Gestionnaire de Tâches avec Interface Utilisateur
+Créer une application de gestionnaire de tâches (Todo List) avec une interface utilisateur.
+Les utilisateurs pourront ajouter, modifier, et supprimer des tâches.
+Les tâches seront stockées dans une base de données SQLite.
+
+Fonctionnalités Requises
+Interface utilisateur: Utilisation de Tkinter pour créer une interface simple.
+Base de données: Utilisation de SQLite pour le stockage des tâches.
+Gestion des erreurs: Ajoutez une gestion des exceptions appropriée.
+Modules et Paquets: Structurez votre code en utilisant des modules et des paquets.
+Commentaires et Conformité PEP8: Votre code doit être bien commenté et respecter la norme PEP8.
+
+Bonus
+Ajoutez une fonction de recherche de tâches.
+Ajoutez une fonction pour marquer les tâches comme "faites" ou "à faire".
+
+AIDE SQL :
+Création de table :
+CREATE TABLE IF NOT EXISTS tasks (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    task TEXT
+);
+
+Insertion de données
+INSERT INTO tasks (task) VALUES [...]
+
+Acquisition des informations de la table.
+SELECT * FROM tasks
+
+Suppression d'une tache dans la table.
+DELETE FROM tasks WHERE task=
